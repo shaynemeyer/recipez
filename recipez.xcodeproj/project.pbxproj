@@ -15,6 +15,7 @@
 		26B962571C31742900048423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B962551C31742900048423 /* LaunchScreen.storyboard */; };
 		26B962631C317CE800048423 /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B962611C317CE800048423 /* Recipe+CoreDataProperties.swift */; };
 		26B962641C317CE800048423 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B962621C317CE800048423 /* Recipe.swift */; };
+		26B962661C317F6100048423 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B962651C317F6100048423 /* RecipeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		26B962581C31742900048423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26B962611C317CE800048423 /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		26B962621C317CE800048423 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = ../Recipe.swift; sourceTree = "<group>"; };
+		26B962651C317F6100048423 /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				26B9624D1C31742900048423 /* Main.storyboard */,
 				26B962551C31742900048423 /* LaunchScreen.storyboard */,
+				26B962651C317F6100048423 /* RecipeCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				26B9624C1C31742900048423 /* ViewController.swift in Sources */,
 				26B962631C317CE800048423 /* Recipe+CoreDataProperties.swift in Sources */,
 				26B9624A1C31742900048423 /* AppDelegate.swift in Sources */,
+				26B962661C317F6100048423 /* RecipeCell.swift in Sources */,
 				26B962521C31742900048423 /* recipez.xcdatamodeld in Sources */,
 				26B962641C317CE800048423 /* Recipe.swift in Sources */,
 			);
